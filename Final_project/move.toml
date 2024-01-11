@@ -1,0 +1,16 @@
+[package]
+name = "asset-manager"
+version = "0.1.0"
+authors = ["acengiz"]
+edition = "2024"
+
+[dependencies]
+std = "0.1.0"
+
+[[bin]]
+name = "main"
+source = "src/main.move"
+
+[[test]]
+name = "tests"
+source = "src/tests.move"
